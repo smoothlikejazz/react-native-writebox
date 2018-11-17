@@ -16,7 +16,6 @@ export default StyleSheet.create({
     /* WriteboxLayout */
     contentLayout: {
         flex: 1,
-        marginTop: 30
     },
 
     /* writeBoxContainer */
