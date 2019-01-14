@@ -56,7 +56,7 @@ export default class WriteBox extends Component {
     render() {
         return (
             <KeyboardAvoidingView
-                keyboardVerticalOffset={85}
+                keyboardVerticalOffset={this.props.keyboardVerticalOffset || 0}
                 behavior={this.state.behavior}
                 style={styles.contentLayout}
                 {...Platform.select({
